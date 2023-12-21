@@ -1,1 +1,1 @@
-beta
+#discord notifier
