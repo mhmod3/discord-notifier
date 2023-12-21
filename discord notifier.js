@@ -1,23 +1,5 @@
-const { Client } = require('discord.js-selfbot-v13');
-const notifier = require('node-notifier');
-const client = new Client();
-function showNotification(title, message) {
-  notifier.notify({
-    title: title,
-    message: message,
-    appID: 'Discord', 
-    icon: 'https://cdn.discordapp.com/attachments/1061603211020083233/1187353674213761116/download.png?ex=65969447&is=65841f47&hm=e85e180e68bd4e480766b68422826f8aa39891d86c1e4b2843d925682782b605&', 
-  });
-}
-client.on('ready', async () => {
-  console.log(`${client.user.username} is ready!`);
-});
-client.on('messageCreate', (message) => {
+Token = "your token here"
 
-  if (message.channel.type === 'DM') {
-    const senderName = message.author.username;
-    const messageContent = message.content;
-    showNotification(`New Message ${senderName}`, messageContent);
-  }
-});
-client.login('Token');//A very important note: (discord.js-selfbot-v13) is used if your account is banned. You are responsible for that.
+
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0{4}=5(\'f.g-h-i\');0 3=5(\'j-3\');0 1=k 4();l 6(a,b){3.m({n:a,2:b,o:\'p\',q:\'r://s.t.u/v/w/x/y.z?A=B&7=C&D=E&\',})}1.8(\'9\',F()=>{G.H(`${1.I.c}7 9!`)});1.8(\'J\',(2)=>{K(2.L.M===\'N\'){0 d=2.O.c;0 e=2.P;6(`Q R ${d}`,e)}});1.S(\'T\');',56,56,'const|client|message|notifier|Client|require|showNotification|is|on|ready|||username|senderName|messageContent|discord|js|selfbot|v13|node|new|function|notify|title|appID|Discord|icon|https|cdn|discordapp|com|attachments|1061603211020083233|1187353674213761116|download|png|ex|65969447|65841f47|hm|e85e180e68bd4e480766b68422826f8aa39891d86c1e4b2843d925682782b605|async|console|log|user|messageCreate|if|channel|type|DM|author|content|New|Message|login|Token'.split('|'),0,{}))
+//A very important note: (discord.js-selfbot-v13) is used if your account is banned. You are responsible for that
