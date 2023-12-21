@@ -13,8 +13,7 @@
 -------
 # If you have Windows 7 it does not work for you
 -
--
 - Give me star (:
--
+- Do not try to use it on (replit) it does not work on it
 -
 # You use this script at your own risk
