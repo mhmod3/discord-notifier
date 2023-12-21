@@ -14,7 +14,7 @@
 # If you have Windows 7 it does not work for you
 -
 -
--
+- Give me star (:
 -
 -
 # You use this script at your own risk
