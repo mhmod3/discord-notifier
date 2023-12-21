@@ -11,7 +11,7 @@
 3- Activate notifications if you are Windows 10
 -
 -------
-# If you have Windows 7 it does not work for you
+# The script does not work on Windows 7
 -
 - Give me star (:
 - Do not try to use it on (replit) it does not work on it
